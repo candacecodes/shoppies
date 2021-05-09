@@ -1,12 +1,18 @@
-# Getting Started with Create React App
+# Shopify 2021 Frontend Dev Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Search results comes from OMDB's API 
+- Each search result should lists its title, year of release and a button to nominate that film.
+- Updates to the search terms should update the result list
+- Movies in search results can be added and removed from the nomination list.
+- If a search result has already been nominated, disable its nominate button.
+- Display a banner when the user has 5 nominations.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
