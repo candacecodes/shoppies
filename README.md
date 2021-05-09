@@ -1,7 +1,7 @@
 # Shopify 2021 Frontend Dev Project 
 
 - Search results comes from OMDB's API 
-- Each search result should lists its title, year of release and a button to nominate that film.
+- Each search result lists its title, year of release and a button to nominate that film.
 - Updates to the search terms should update the result list
 - Movies in search results can be added and removed from the nomination list.
 - If a search result has already been nominated, disable its nominate button.
