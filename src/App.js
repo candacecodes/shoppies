@@ -20,12 +20,10 @@ const App = () => {
 			`https://www.omdbapi.com/?t=${search}&apikey=${API_KEY}`
 		).then((response) => response.json());
 		setMovies(response);
-		console.log(movies);
 		setTitle(response.Title);
 		setYear(response.Year);
 		setActors(response.Actors);
 		setGenre(response.Genre);
-		console.log(nominations.includes(response.Title));
 	};
 
 	const addToNominations = () => {
