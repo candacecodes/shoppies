@@ -7,6 +7,7 @@
 - If a search result has already been nominated, disable its nominate button.
 - Display a banner when the user has 5 nominations.
 
+Live Site: [Here](https://nostalgic-lamarr-b8c957.netlify.app)
 
 ## Available Scripts
 
