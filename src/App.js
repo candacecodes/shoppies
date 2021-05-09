@@ -17,7 +17,7 @@ const App = () => {
 
 	const getMovies = async () => {
 		const response = await fetch(
-			`http://www.omdbapi.com/?t=${search}&apikey=${API_KEY}`
+			`https://www.omdbapi.com/?t=${search}&apikey=${API_KEY}`
 		).then((response) => response.json());
 		setMovies(response);
 		console.log(movies);
@@ -41,7 +41,7 @@ const App = () => {
 	};
 
 	const displayNominations = () => {
-		console.log(nominations);
+		// console.log(nominations);
 		return (
 			<div>
 				{nominations.map((nomination) => (
@@ -65,12 +65,12 @@ const App = () => {
 	};
 
 	const noNominations = (e) => {
-		console.log("no nominations");
+		// console.log("no nominations");
 		return <p>No nominations currently</p>;
 	};
 
 	const alreadyNominated = (e) => {
-		console.log("nominated");
+		// console.log("nominated");
 		return (
 			<button className="add-to-nominations-button">Movie Nominated</button>
 		);
