@@ -1,0 +1,73 @@
+.title {
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, maroon 97%);
+	color: goldenrod;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	font-family: Garamond;
+}
+
+html {
+	background-color: darkgoldenrod;
+}
+h1 {
+	color: goldenrod;
+}
+
+h2 {
+	color: goldenrod;
+}
+
+.search {
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, maroon 97%);
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-family: Garamond;
+}
+
+.search-bar {
+	width: 50%;
+	border: none;
+	padding: 10px;
+	font-family: Garamond;
+}
+
+.search-button {
+	background: goldenrod;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+	font-family: Garamond;
+}
+
+.movie-display {
+	text-align: center;
+	background: black;
+	padding: 10px 10px;
+	margin: 20px;
+	color: goldenrod;
+	font-family: Garamond;
+}
+
+.add-to-nominations-button {
+	background: maroon;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+	font-family: Garamond;
+}
+
+.delete-from-nominations-button {
+	margin: auto;
+}
+
+.stars {
+	background: #000 url(Stars.png) repeat top center;
+	z-index: 0;
+}
